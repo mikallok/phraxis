@@ -2,18 +2,43 @@ h1 {
   font: 100% arial, helvetica, sans-serif;
   font-size: 3em;
   font-weight: 100;
+  padding-bottom: 0px;
 }
 
 h2 {
   font: 100% arial, helvetica, sans-serif;
   font-size: 2em;
+}
 
+h3 {
+padding-top: 0px;
+padding-right: 5px;
+padding-bottom: 0px;
+    font: 100% sans-serif;
+    font-weight: 500;
+    color: gray;
+  }
+
+p {
+font: 100% arial, helvetica, sans-serif;
+}
+
+p.intro {
+  font: arial, helvetica, sans-serif;
+  color: #286090;
+  font-weight:bolder;
 }
 
 body {
     padding-top: 70px;
     font: 100% arial, helvetica, sans-serif;
 font-size: 1.6em;
+}
+
+article {
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  columns: 2 200px;
 }
 
 .navbar-fixed-top .nav {
@@ -35,6 +60,7 @@ text-align: center;
 }
 
 @media(min-width:768px) {
+
     body {
         padding-top: 100px;
     }
