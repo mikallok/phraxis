@@ -52,6 +52,91 @@
                   </xsd:attribute>
                </xsd:complexType>
             </xsd:element>
+            <xsd:element name="Question2" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration value="Yes"/>
+                           <xsd:enumeration value="No"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="Question3" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration value="Yes"/>
+                           <xsd:enumeration value="No"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="Question4" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration value="Yes"/>
+                           <xsd:enumeration value="No"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="Question5" type="xsd:decimal"/>
+            <xsd:element name="Question6" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration value="Yes"/>
+                           <xsd:enumeration value="No"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="Question7" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration value="Yes"/>
+                           <xsd:enumeration value="No"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="Question7" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration type="xsd:date"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
+              <xsd:element name="Question8" type="xsd:decimal"/>
          </xsd:sequence>
       </xsd:complexType>
    </xsd:element>
