@@ -29,6 +29,7 @@ CaseReportForm {
   display: block;
   padding: 10pt;
   margin: 5px;
+  border: 1px;
   text-align: left;
 }
 
