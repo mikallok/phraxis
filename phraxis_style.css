@@ -58,7 +58,7 @@ weight:before {content: attr(type) "Weight: "}
 weight:after {content: attr(type) " kg "}
 ethnicity:before {content: attr(type) "Race/ethnicity: "}
 Question1:before {content: attr(type) "Prior venous catheter for dialysis? "}
-Question2:before {content: attr(type) "If Y, was venous catheter placed within the last 30 days? "}
+Question2:before {content: attr(type) "Was venous catheter placed within the last 30 days? "}
 Question3:before {content: attr(type) "Prior dialysis shunt placement? "}
 Question4:before {content: attr(type) "Prior hemodialysis? "}
 Question5:before {content: attr(type) "Duration of hemodialysis prior to this study? "}
