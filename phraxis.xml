@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="phraxis_style.css"?>
-<!DOCTYPE ClinicalHistory SYSTEM "phraxis.dtd">
+<CaseReportForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="phraxis.xsd">
 
 <CaseReportForm>
 <head>
@@ -10,19 +10,10 @@
   <PatientID>1-01</PatientID>
   <section>Part I. Demographics</section>
 	<gender>Male</gender>
-	<dob>06-20-52</dob>
+	<dob>1952-06-02</dob>
   <age>65</age>
   <height>170</height>
   <weight>136</weight>
   <ethnicity>Other</ethnicity>
   <section>Part II. Dialysis History</section>
-  <Question1>N</Question1>
-  <Question2>NA</Question2>
-  <Question3>Y</Question3>
-  <Question4>Y</Question4>
-  <Question5>9</Question5>
-  <Question6>Unknown</Question6>
-  <Question7>N</Question7>
-  <Question8>10-15-17</Question8>
-  <Question9>1</Question9>
 </CaseReportForm>
