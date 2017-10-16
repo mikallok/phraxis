@@ -2,7 +2,6 @@
 <?xml-stylesheet type="text/css" href="phraxis_style.css"?>
 <CaseReportForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="phraxis.xsd">
 
-<CaseReportForm>
 <head>
   <title>InterGraft Study:</title>
   <subtitle>Baseline Demography and Clinical History Form</subtitle>
