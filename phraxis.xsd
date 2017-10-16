@@ -38,6 +38,20 @@
                   </xsd:attribute>
                </xsd:complexType>
             </xsd:element>
+            <xsd:element name="Question1" maxOccurs="choice">
+               <xsd:complexType mixed="true">
+                  <xsd:attribute name="type" use="required">
+                     <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                           <xsd:enumeration value="Yes"/>
+                           <xsd:enumeration value="No"/>
+                           <xsd:enumeration value="Unknown"/>
+                           <xsd:enumeration value="NA"/>
+                        </xsd:restriction>
+                     </xsd:simpleType>
+                  </xsd:attribute>
+               </xsd:complexType>
+            </xsd:element>
          </xsd:sequence>
       </xsd:complexType>
    </xsd:element>
