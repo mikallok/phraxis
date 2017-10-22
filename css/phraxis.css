@@ -41,6 +41,21 @@ body {
 font-size: 1.6em;
 }
 
+figure {
+  float: left;
+  width: 100%;
+}
+
+figcaption {
+  float: left;
+  font-style: italic;
+  font-size: smaller;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+}
+
 article {
   -webkit-columns: 2 200px;
   -moz-columns: 2 200px;
@@ -102,22 +117,5 @@ details[open] summary:after {
   margin-left: 15px;
 }
 
-    /*RESPONSIVE EMBED */
-
-    .video-container {
-    	position:relative;
-    	padding-bottom:56.25%;
-    	padding-top:30px;
-    	height:0;
-    	overflow:hidden;
-    }
-
-    .video-container iframe, .video-container object, .video-container embed {
-    	position:absolute;
-    	top:0;
-    	left:0;
-    	width:100%;
-    	height:100%;
-    }
 
 }
